@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediaHouse - Discover Trends</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="media_house.png" alt="MediaHouse Logo"> MediaHouse
+        </div>
+        <nav>
+            <div class="search-box">
+                <input type="text" placeholder="Search for topic..." id="search-input">
+                <button onclick="performSearch()">Search</button>
+            </div>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Latest Trends</a>
+                <a href="#">Categories</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero">
+            <h1>Welcome to MediaHouse</h1>
+            <p>Your one-stop destination for global trends and news</p>
+        </div>
+
+        <section class="trending">
+            <h2>Trending Topics</h2>
+            <div id="trending-container"></div>
+        </section>
+
+        <section id="search-results-section" style="display: none;">
+            <h2>Search Results</h2>
+            <div id="search-results"></div>
+        </section>
+    </main>
+
+    <div class="chatbot-icon">💬</div>
+
+    <div class="chatbot">
+        <div class="chatbot-header">
+            <span>Media Assist</span>
+            <button class="close-chatbot">&times;</button>
+        </div>
+        <div class="chatbot-messages"></div>
+        <div class="chatbot-input">
+            <input type="text" placeholder="Type your question here...">
+            <button>Send</button>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 MediaHouse. All Rights Reserved.
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
